@@ -1,0 +1,14 @@
+#!/bin/sh -e
+
+# Activate the first frame buffer device and disable the second one
+echo 0 > /sys/devices/platform/mesonfb.0/graphics/fb0/blank
+echo 1 > /sys/devices/platform/mesonfb.0/graphics/fb1/blank
+
+# Change FB mode to 1280x800(real/virtual), 16 bits
+# I'm getting weird colors when it's set to 24 or 32 bits
+fbset -fb /dev/fb0 -g 800 1280 800 1280 16
+
+# Rotate screen counterclockwise
+echo 3 > /sys/devices/virtual/graphics/fbcon/rotate_all
+
+exit 0
