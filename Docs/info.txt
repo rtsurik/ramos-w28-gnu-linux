@@ -1,0 +1,40 @@
+-----
+cpuinfo
+-----
+
+root@android:/ # cat /proc/cpuinfo                                             
+Processor : ARMv7 Processor rev 0 (v7l)
+processor : 0
+BogoMIPS  : 398.04
+
+processor : 1
+BogoMIPS  : 398.04
+
+Features  : swp half thumb fastmult vfp edsp thumbee neon vfpv3 
+CPU implementer : 0x41
+CPU architecture: 7
+CPU variant : 0x3
+CPU part  : 0xc09
+CPU revision  : 0
+
+Hardware  : Amlogic Meson6 g04 customer platform
+Revision  : 0020
+Serial    : 000000000000000c
+
+-----
+mtd - wayteq 4.2.2
+-----
+
+root@android:/proc # cat mtd                                                   
+dev:    size   erasesize  name
+mtd0: 00800000 00200000 "bootloader"
+mtd1: 00800000 00400000 "logo"
+mtd2: 00800000 00400000 "aml_logo"
+mtd3: 00800000 00400000 "recovery"
+mtd4: 00800000 00400000 "boot"
+mtd5: 40000000 00400000 "system"
+mtd6: 10000000 00400000 "cache"
+mtd7: 40000000 00400000 "userdata"
+mtd8: 36c800000 00400000 "NFTL_Part"
+
+

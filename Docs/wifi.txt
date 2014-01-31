@@ -1,0 +1,66 @@
+
+The wifi module in my w28 unit appears to experience connectivity issues with rtl8188eu driver > 4.1.2
+
+
+----
+Ramos w28 4.1.1 20130321
+----
+
+=8188eu.ko
+
+version:        v4.1.2_4787.20120803
+author:         Realtek Semiconductor Corp.
+description:    Realtek Wireless Lan Driver
+license:        GPL
+srcversion:     6573B9F6D896993AB4131E4
+depends:        
+vermagic:       3.0.8-svn1771 SMP preempt mod_unload ARMv7 
+
+=8192cu.ko
+
+version:        v3.3.1_3083.20111213
+author:         Realtek Semiconductor Corp.
+description:    Realtek Wireless Lan Driver
+license:        GPL
+srcversion:     A6814BFF127EEC21C077424
+depends:        
+vermagic:       3.0.8-svn1771 SMP preempt mod_unload ARMv7 
+
+----
+Ramos w28 4.2.2 20130527
+----
+
+=8188eu.ko
+
+version:        v4.1.3_5938.20121130
+author:         Realtek Semiconductor Corp.
+description:    Realtek Wireless Lan Driver
+license:        GPL
+srcversion:     89D9E14174916414A950A33
+depends:        
+vermagic:       3.0.50-svn2087 SMP preempt mod_unload ARMv7 
+
+=8192cu.ko
+
+version:        v4.0.0_5967.20121201
+author:         Realtek Semiconductor Corp.
+description:    Realtek Wireless Lan Driver
+license:        GPL
+srcversion:     F6FB1770CE3CB100A4043E0
+depends:        
+vermagic:       3.0.50-svn2087 SMP preempt mod_unload ARMv7 
+
+----
+WayteQ xTAB-70dci 4.2.2 firmware
+----
+
+=8188eu.ko
+
+version:        v4.1.2_4787.20120803
+author:         Realtek Semiconductor Corp.
+description:    Realtek Wireless Lan Driver
+license:        GPL
+srcversion:     6573B9F6D896993AB4131E4
+alias:          usb:v0BDAp8179d*dc*dsc*dp*ic*isc*ip*
+depends:        
+vermagic:       3.0.8-svn1962 SMP preempt mod_unload ARMv7 
